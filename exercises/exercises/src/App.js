@@ -43,15 +43,6 @@ const App = () => {
   const part3 = "State of a component";
   const exercises3 = 14;
 
-  const x = 1;
-  let y = 5;
-  console.log(x, y);
-  y += 10;
-  console.log(x, y);
-  y = "some text";
-  console.log(x, y);
-  // x = 4;  this causes an error because x was defined with the keywork const which makes it a constant and its value can't be changed
-
   return (
     <div>
       <Header name={course} />
