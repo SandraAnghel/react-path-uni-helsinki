@@ -30,6 +30,31 @@ const App = () => {
   console.log(x, y);
   // x = 4;  this causes an error because x was defined with the keywork const which makes it a constant and its value can't be changed
 
+  const t = [1, -1, 3];
+  t.push(5);
+
+  console.log(t.length);
+  console.log(t[1]);
+
+  t.forEach((value) => {
+    console.log(value);
+  });
+
+  const t2 = t.concat(7);
+  console.log(t);
+  console.log(t2);
+
+  const m1 = t.map((value) => value * 2);
+  console.log(m1);
+
+  const m2 = t.map((value) => "<li>" + value + "</li>");
+  console.log(m2);
+
+  const s = [1, 2, 3, 4, 5];
+  const [first, second, ...rest] = s; // destructuring assignment
+  console.log(first, second);
+  console.log(rest);
+
   return (
     <>
       <h1>Greetings</h1>
