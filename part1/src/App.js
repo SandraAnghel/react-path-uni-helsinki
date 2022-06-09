@@ -1,5 +1,6 @@
 import Functions from "./Functions";
 import Object from "./Object";
+import ObjectMethods from "./ObjectMethods";
 
 const Hello = (props) => {
   return (
@@ -65,6 +66,7 @@ const App = () => {
       <Hello name={name} age={age} />
       <Object />
       <Functions />
+      <ObjectMethods />
       <Footer />
     </>
   );
