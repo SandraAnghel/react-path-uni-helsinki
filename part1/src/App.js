@@ -1,3 +1,4 @@
+import Functions from "./Functions";
 import Object from "./Object";
 
 const Hello = (props) => {
@@ -63,6 +64,7 @@ const App = () => {
       <Hello name="Maya" age={26 + 10} />
       <Hello name={name} age={age} />
       <Object />
+      <Functions />
       <Footer />
     </>
   );

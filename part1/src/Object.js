@@ -1,7 +1,7 @@
 const Object = () => {
   return (
     <div>
-      <h3>Object component</h3>
+      <h4>Object component</h4>
     </div>
   );
 };
